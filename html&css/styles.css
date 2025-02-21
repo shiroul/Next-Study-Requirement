@@ -1,0 +1,165 @@
+html, body {
+    font-family: "Atma", serif;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-shrink: wrap;
+    justify-content: space-around;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 40%;
+    height: 40px;
+    border: 2px solid rgb(251, 243, 236);
+    /* border-style: solid; */
+    border-radius: 45px;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact p{
+    text-align: end;
+    margin: 0;
+    padding: 0;
+}
+
+.contact > section{
+    margin-right: 10px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.slide-image{
+    margin-top: 50px;
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(251, 243, 236);
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+}
+
+.circle{
+    
+    height: 30vh;
+    width: 30vw;
+    border-radius: 50%;
+    background-color: rgb(247, 237, 229);
+}
+
+.top{
+    flex: 9;
+    display: flex;
+}
+
+.hover{
+    flex: 1;
+}
+
+.top > div{
+    width: 50%;
+    /* border-style: solid; */
+    display: flex;
+}
+
+.left-side{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.left-side > img{
+    position: absolute;
+    top: -15px;
+}
+
+.right-side{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-side > p{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.check-it{
+    padding: 5px 25px;
+    border-style: groove;
+    /* width: calc(fit-content + 20px); */
+    width: fit-content;
+}
+
+.hover{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.hover > span {
+    width: 10px;
+    height: 10px;
+    border-style: groove;
+    border-radius: 50%;
+}
+
+.hover > span:first-child{
+    background-color: black;
+}
+
+.category{
+    margin-top: 30px;
+    /* border-style: solid; */
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.category > div img{
+    width: 50px;
+    height: 50px;
+}
+
+.category > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
